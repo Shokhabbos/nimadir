@@ -1,0 +1,161 @@
+body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+        margin: 0;
+        padding: 0;
+}
+
+ul {
+        list-style: none;
+}
+
+a {
+        text-decoration: none;
+}
+
+
+
+.container {
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 16px;
+}
+
+header {
+        background-color: rgba(242, 206, 218, 0.3);
+}
+
+.header__wrapper{
+        position: fixed;
+        width: 100%;
+        max-width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(226, 224, 225, 0.95);
+        z-index: 1;
+
+        
+}
+.header__wrapper,
+.header__center ul,
+.hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.hero__wrapper {
+        margin-bottom: 52px;
+}
+
+.header__center-item {
+        margin: 0 5px;
+
+}
+
+.header__center-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #150101;
+        opacity: 0.6;
+        padding: 12px 15px;
+}
+
+.header__center-link:hover {
+        color: #D23166;
+}
+
+.btn {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FAFAFA;
+        padding: 14px 50px;
+        background: #D23166;
+        border-radius: 5px;
+        border: none;
+}
+
+
+.header__right{
+        padding-right: 34px;
+}
+
+/* Hero */
+
+
+.hero__left {
+        /* width: 48%; */
+}
+
+.hero__left span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        color: #0F0101;
+        margin-bottom: 6px;
+}
+
+.hero__left h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 57.33px;
+        line-height: 120.5%;
+        color: #0F0101;
+        opacity: 0.9;
+        margin-bottom: 35px;
+        position: static;
+}
+
+.hero__left h1 span {
+        color: rgba(210, 49, 102, 1);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 57.33px;
+        line-height: 120.5%;
+        opacity: 0.9;
+}
+
+.hero__left p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #0F0101;
+        opacity: 0.6;
+        margin-bottom: 50px;
+}
+
+.hero__right {
+        background-image: url('./images/ice-cream.png');
+        width: 890px;
+        height: 740px;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+/* Hero */
+
+
+#text{
+   background-color: rgb(242, 242, 114);
+   position: sticky;
+   top: 84px;
+}
